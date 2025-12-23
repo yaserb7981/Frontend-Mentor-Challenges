@@ -23,5 +23,5 @@ The projects are organized by their difficulty levels:
 
 ### Newbie
 1. **Social Links Profile**
-   - [Live Demo](https://yaserb7981.github.io/Frontend-Mentor-Challenges/1-Newbie/1-social-links-profile-main/)
+   - [Live Demo](https://yaserb7981.github.io/Frontend-Mentor-Challenges/1-Newbie/1-social-links-profile-main/src/)
    - Skills: CSS Flexbox, BEM Naming, Mobile-first design.

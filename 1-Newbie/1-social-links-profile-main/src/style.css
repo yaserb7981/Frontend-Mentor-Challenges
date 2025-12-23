@@ -1,0 +1,73 @@
+@import url("https://fonts.google.com/css2?family=Inter:wght@400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: hsl(0, 0%, 8%); /* Grey 900 */
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.profile-card {
+  background-color: hsl(0, 0%, 12%); /* Grey 800 */
+  width: 90%;
+  max-width: 384px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+.profile-card__avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+.profile-card__name {
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.profile-card__location {
+  color: hsl(75, 94%, 57%); /* Green */
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.profile-card__bio {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.profile-card__links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+.profile-card__link {
+  display: block;
+  padding: 12px;
+  background-color: hsl(0, 0%, 20%); /* Grey 700 */
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+.profile-card__link:hover {
+  background-color: hsl(75, 94%, 57%); /* Green */
+  color: hsl(0, 0%, 8%); /* Grey 900 */
+}
